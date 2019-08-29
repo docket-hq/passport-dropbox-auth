@@ -1,6 +1,6 @@
 {
   "name": "passport-dropbox-auth",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Passport strategy for Dropbox",
   "main": "index.js",
   "scripts": {
