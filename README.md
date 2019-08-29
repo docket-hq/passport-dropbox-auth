@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/jnbarlow/passport-dropbox-auth.svg?style=shield)](https://circleci.com/gh/jnbarlow/passport-dropbox-auth)
 
 # passport-dropbox-auth
-Simple Drobpox strategy for passport that supports both personal Dropbox an Dropbox for Business (utilizing the Docker API for user information).
+Simple Drobpox strategy for passport that supports both personal Dropbox and Dropbox for Business (utilizing the Docker API for user information).
 
 ## Installation
 ```
