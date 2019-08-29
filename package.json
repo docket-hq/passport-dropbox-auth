@@ -4,7 +4,7 @@
   "description": "Passport strategy for Dropbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "dropbox": "^4.0.30",
     "isomorphic-fetch": "^2.2.1",
     "passport-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
   }
 }
