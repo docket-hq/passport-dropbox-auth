@@ -4,7 +4,7 @@
 Simple Drobpox strategy for passport that supports both personal Dropbox and Dropbox for Business (utilizing the Docker API for user information).
 
 ## Installation
-```
+```bash
 npm install passport-dropbox-auth
 ```
 ## Usage
@@ -21,7 +21,7 @@ Aside from the standard required fields, this module allows to optionally have p
 ## Examples
 
 **With request**
-```
+```javascript
 const DropboxStrategy = require('passport-dropbox-auth').Strategy;
 const strategy = new DropboxStrategy(
 {
@@ -37,7 +37,7 @@ async (request, accessToken, refreshToken, profile, done) => {
 
 
 **Without request**
-```
+```javascript
 const DropboxStrategy = require('passport-dropbox-auth').Strategy;
 const strategy = new DropboxStrategy(
 {
@@ -52,7 +52,7 @@ async (accessToken, refreshToken, profile, done) => {
 ```
 ## Profile Responses
 **Docker for Business**
-```
+```javascript
 {
     "account_id": "dbid:AAH4f99T0taONIb-OurWxbNQ6ywGRopQngc",
     "name": {
@@ -100,7 +100,7 @@ async (accessToken, refreshToken, profile, done) => {
 ```
 
 **Docker Personal**
-```
+```javascript
 {
     "account_id": "dbid:AAH4f99T0taONIb-OurWxbNQ6ywGRopQngc",
     "name": {
