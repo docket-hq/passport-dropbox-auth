@@ -27,7 +27,7 @@ const strategy = new DropboxStrategy(
 {
     clientID: '<clientid>',
     clientSecret: '<clientSecret>',
-    callbackURL: '<callbackURL>,
+    callbackURL: '<callbackURL>',
     passReqToCallback: true
 },
 async (request, accessToken, refreshToken, profile, done) => {
@@ -43,7 +43,7 @@ const strategy = new DropboxStrategy(
 {
     clientID: '<clientid>',
     clientSecret: '<clientSecret>',
-    callbackURL: '<callbackURL>,
+    callbackURL: '<callbackURL>',
     passReqToCallback: false //or omit this entirely
 },
 async (accessToken, refreshToken, profile, done) => {
