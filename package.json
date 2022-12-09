@@ -24,7 +24,7 @@
   "homepage": "https://github.com/jnbarlow/passport-dropbox-auth#readme",
   "dependencies": {
     "dropbox": "^4.0.30",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "passport-oauth": "^1.0.0"
   },
   "devDependencies": {
